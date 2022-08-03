@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import Header from './Header';
 import Quotes from './Quotes';
-import data from './Data';
 
 function App() {
   const [quotes, setQuotes] = useState(null);
